@@ -1,0 +1,295 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/mnt/d/projects/domu/electric-data-land/contracts/TestNFT.sol": {
+      "lastModificationDate": 1671008869199,
+      "contentHash": "039ea84ed65cb21f3137e491d4adca88",
+      "sourceName": "contracts/TestNFT.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.7.6"
+      ],
+      "artifacts": [
+        "Address",
+        "Context",
+        "ERC165",
+        "ERC721",
+        "EnumerableMap",
+        "EnumerableSet",
+        "IERC165",
+        "IERC721",
+        "IERC721Enumerable",
+        "IERC721Metadata",
+        "IERC721Receiver",
+        "Ownable",
+        "SafeMath",
+        "Strings",
+        "TestNFT"
+      ]
+    },
+    "/mnt/d/projects/domu/electric-data-land/contracts/DomuToken.sol": {
+      "lastModificationDate": 1671008869193,
+      "contentHash": "071c5b85f48f291d463303917be2a491",
+      "sourceName": "contracts/DomuToken.sol",
+      "solcConfig": {
+        "version": "0.8.16",
+        "settings": {
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Address",
+        "Context",
+        "DOMU",
+        "ERC20",
+        "ERC20Detailed",
+        "IERC20",
+        "SafeERC20",
+        "SafeMath"
+      ]
+    },
+    "/mnt/d/projects/domu/electric-data-land/contracts/ElectricDataLand.sol": {
+      "lastModificationDate": 1671008869197,
+      "contentHash": "84959eb9e68a956c668ebdc2bef93f00",
+      "sourceName": "contracts/ElectricDataLand.sol",
+      "solcConfig": {
+        "version": "0.8.16",
+        "settings": {
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "AddressUpgradeable",
+        "ContextUpgradeable",
+        "ERC165Upgradeable",
+        "ERC721Upgradeable",
+        "ElectricDataLand",
+        "IERC165Upgradeable",
+        "IERC20",
+        "IERC721",
+        "IERC721MetadataUpgradeable",
+        "IERC721ReceiverUpgradeable",
+        "IERC721Upgradeable",
+        "Initializable",
+        "MathUpgradeable",
+        "ReentrancyGuardUpgradeable",
+        "StringsUpgradeable",
+        "tokenProxy"
+      ]
+    },
+    "/mnt/d/projects/domu/electric-data-land/contracts/ElectricDataLandold.sol": {
+      "lastModificationDate": 1671008869198,
+      "contentHash": "d3916079de82567c6bced6155f5839da",
+      "sourceName": "contracts/ElectricDataLandold.sol",
+      "solcConfig": {
+        "version": "0.8.16",
+        "settings": {
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "0.8.16"
+      ],
+      "artifacts": [
+        "Address",
+        "Context",
+        "ERC165",
+        "ERC721",
+        "ElectricDataLandOld",
+        "EnumerableMap",
+        "EnumerableSet",
+        "IERC165",
+        "IERC20",
+        "IERC721",
+        "IERC721Enumerable",
+        "IERC721Metadata",
+        "IERC721Receiver",
+        "ReentrancyGuard",
+        "SafeMath",
+        "Strings",
+        "tokenProxy"
+      ]
+    },
+    "/mnt/d/projects/domu/electric-data-land/node_modules/hardhat/console.sol": {
+      "lastModificationDate": 1670852148460,
+      "contentHash": "cc4777addd464ea56fa35b1c45df0591",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.8.16",
+        "settings": {
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
+    },
+    "/mnt/d/projects/domu/electric-data-land/contracts/TokenCreator.sol": {
+      "lastModificationDate": 1671008869200,
+      "contentHash": "7f71fdafc64938539c9e3335c1496fe0",
+      "sourceName": "contracts/TokenCreator.sol",
+      "solcConfig": {
+        "version": "0.8.16",
+        "settings": {
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.16"
+      ],
+      "artifacts": [
+        "Address",
+        "Context",
+        "DINToken",
+        "ERC20",
+        "ERC20Detailed",
+        "IERC20",
+        "SafeERC20",
+        "SafeMath",
+        "TokenProxy"
+      ]
+    }
+  }
+}
