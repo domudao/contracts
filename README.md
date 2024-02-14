@@ -1,3 +1,9 @@
+Domudao/contracts
+
+This is the smart contract work done by Tomislav
+
+
+
 Install dependencies by running:
 yarn or yarn install
 
